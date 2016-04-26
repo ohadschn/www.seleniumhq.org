@@ -35,10 +35,9 @@ built in support for automation.
 WebDriver and the Selenium-Server
 ---------------------------------
 
-You may, or may not, need the Selenium Server, depending on how you intend to use Selenium-WebDriver.
-If you will be only using the WebDriver API you do not need the Selenium-Server.  If your browser
-and tests will all run on the same machine, and your tests only use the WebDriver API, then you 
-do not need to run the Selenium-Server; WebDriver will run the browser directly.
+You may, or may not, need the Selenium Server, depending on how you intend to use Selenium-WebDriver. 
+If your browser and tests will all run on the same machine, and your tests only use the WebDriver API, 
+then you do not need to run the Selenium-Server; WebDriver will run the browser directly.
 
 There are some reasons though to use the Selenium-Server with Selenium-WebDriver.  
 
