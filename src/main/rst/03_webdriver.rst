@@ -852,6 +852,10 @@ moving between named windows using the "switchTo" method:
 .. code-block:: java
 
     driver.switchTo().window("windowName");
+    
+.. code-block:: csharp
+
+    driver.SwitchTo().Window("windowName");
 
 .. code-block:: ruby
 
