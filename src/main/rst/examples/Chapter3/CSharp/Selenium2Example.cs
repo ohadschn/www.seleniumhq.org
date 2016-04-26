@@ -35,11 +35,11 @@ class GoogleSuggest
 
         // Google's search is rendered dynamically with JavaScript.
         // Wait for the page to load, timeout after 10 seconds
-        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-        wait.Until((d) => { return d.Title.ToLower().StartsWith("cheese"); });
+        var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+        wait.Until(d => d.Title.StartsWith("cheese", StringComparison.OrdinalIgnoreCase));
 
         // Should see: "Cheese - Google Search"
-        System.Console.WriteLine("Page title is: " + driver.Title);
+        Console.WriteLine("Page title is: " + driver.Title);
 
         //Close the browser
         driver.Quit();
