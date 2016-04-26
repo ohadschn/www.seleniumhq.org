@@ -1407,6 +1407,12 @@ Alternatively, if the profile isn't already registered with Firefox:
     FirefoxProfile profile = new FirefoxProfile(profileDir);
     profile.addAdditionalPreferences(extraPrefs);
     WebDriver driver = new FirefoxDriver(profile);
+    
+.. code-block:: csharp
+
+    FirefoxProfile profile = new FirefoxProfile("path/to/top/level/of/profile");
+    profile.SetPreference("extra", "pref");
+    IWebDriver driver = new FirefoxDriver(profile);
 
 As we develop features in the `Firefox Driver`_, we expose the ability to use them.
 For example, until we feel native events are stable on Firefox for Linux, they
