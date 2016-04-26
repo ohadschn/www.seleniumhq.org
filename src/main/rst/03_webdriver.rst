@@ -973,14 +973,18 @@ Navigation: History and Location
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Earlier, we covered navigating to a page using the "get" command (
-``driver.get("http://www.example.com")``) As you've seen, WebDriver has a
-number of smaller, task-focused interfaces, and navigation is a useful task.
+``driver.get("http://www.example.com")`` or ``driver.Url="http://www.example.com"`` in C#). 
+As you've seen, WebDriver has a number of smaller, task-focused interfaces, and navigation is a useful task.
 Because loading a page is such a fundamental requirement, the method to do this
 lives on the main WebDriver interface, but it's simply a synonym to:
 
 .. code-block:: java
 
     driver.navigate().to("http://www.example.com");
+
+.. code-block:: csharp    
+    
+    driver.Navigate().GoToUrl("http://www.example.com");
 
 .. code-block:: ruby
 
