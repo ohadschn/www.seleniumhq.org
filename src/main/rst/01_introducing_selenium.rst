@@ -87,7 +87,7 @@ While Selenium was a tremendous tool, it wasn't without its drawbacks.
 Because of its Javascript based automation engine and the security limitations
 browsers apply to Javascript, different things became impossible to do.  To
 make things worse, webapps became more and more powerful over time, using all
-sorts of special features new browsers provide and making this restrictions
+sorts of special features new browsers provide and making these restrictions
 more and more painful.
 
 In 2006 a plucky engineer at Google named Simon Stewart started work on
