@@ -1040,8 +1040,8 @@ Before we leave these next steps, you may be interested in understanding how to
 use cookies. First of all, you need to be on the domain that the cookie will be
 valid for. If you are trying to preset cookies before
 you start interacting with a site and your homepage is large / takes a while to load
-an alternative is to find a smaller page on the site, typically the 404 page is small
-(http://example.com/some404page)
+an alternative is to find a smaller page on the site (typically the 404 page is small, 
+e.g. http://example.com/some404page).
 
 .. code-block:: java
 
