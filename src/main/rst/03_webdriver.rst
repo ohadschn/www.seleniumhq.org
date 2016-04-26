@@ -1169,6 +1169,12 @@ This is easy with the `Firefox Driver`_:
     FirefoxProfile profile = new FirefoxProfile();
     profile.addAdditionalPreference("general.useragent.override", "some UA string");
     WebDriver driver = new FirefoxDriver(profile);
+    
+.. code-block:: csharp
+
+    var profile = new FirefoxProfile();
+    profile.SetPreference("general.useragent.override", "some UA string");
+    IWebDriver driver = new FirefoxDriver(profile);
 
 .. code-block:: ruby
 
