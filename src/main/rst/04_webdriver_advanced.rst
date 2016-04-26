@@ -15,7 +15,7 @@ implicit wait of 10 seconds and an explicit wait of 15 seconds, could cause a ti
 
 Explicit Waits
 ~~~~~~~~~~~~~~
-An explicit waits is code you define to wait for a certain condition to occur before proceeding further in the code.
+An explicit wait is code you define to wait for a certain condition to occur before proceeding further in the code.
 The worst case of this is Thread.sleep(), which sets the condition to an exact time period to wait. 
 There are some convenience methods provided that help you write code that will wait only as long as required.
 WebDriverWait in combination with ExpectedCondition is one way this can be accomplished.
