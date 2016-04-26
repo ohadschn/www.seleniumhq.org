@@ -135,6 +135,14 @@ Using ChromeOptions
     DesiredCapabilities dc = DesiredCapabilities.chrome();
     dc.setCapability(ChromeOptions.CAPABILITY, options);
     WebDriver driver = new RemoteWebDriver(dc);
+    
+.. code-block:: csharp
+
+   var options = new ChromeOptions();
+   // set some options
+   DesiredCapabilities dc = DesiredCapabilities.Chrome();
+   dc.SetCapability(ChromeOptions.Capability, options);
+   IWebDriver driver = new RemoteWebDriver(dc);
 
 .. code-block:: python
     
