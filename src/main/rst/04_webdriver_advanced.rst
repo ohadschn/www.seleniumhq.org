@@ -109,6 +109,14 @@ Using a FirefoxProfile
     DesiredCapabilities dc = DesiredCapabilities.firefox();
     dc.setCapability(FirefoxDriver.PROFILE, fp);
     WebDriver driver = new RemoteWebDriver(dc);
+    
+.. code-block:: csharp
+
+   FirefoxProfile fp = new FirefoxProfile();
+   // set something on the profile...
+   DesiredCapabilities dc = DesiredCapabilities.Firefox();
+   dc.SetCapability(FirefoxDriver.ProfileCapabilityName, fp);
+   IWebDriver driver = new RemoteWebDriver(dc);
 
 .. code-block:: python
     
