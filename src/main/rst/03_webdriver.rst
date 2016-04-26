@@ -1423,6 +1423,11 @@ are disabled by default. To enable them:
     FirefoxProfile profile = new FirefoxProfile();
     profile.setEnableNativeEvents(true);
     WebDriver driver = new FirefoxDriver(profile);
+    
+.. code-block:: csharp
+
+    var profile = new FirefoxProfile {EnableNativeEvents = true};
+    IWebDriver driver = new FirefoxDriver(profile);
 
 .. code-block:: python
 
