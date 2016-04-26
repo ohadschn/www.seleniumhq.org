@@ -321,7 +321,7 @@ many DOM elements with the same class name, thus finding multiple elements becom
 option over finding the first element.
 
 
-Example of how to find an element that looks like this:
+Example of how to find elements that look like this:
 
 .. code-block:: html
 
@@ -360,9 +360,11 @@ Example of how to find an element that looks like this:
 By Tag Name
 +++++++++++
 
-The DOM Tag Name of the element.
+The DOM Tag Name of the element. Often in practical use there are
+many DOM elements with the same tag name, thus finding multiple elements becomes the more practical
+option over finding the first element.
 
-Example of how to find an element that looks like this:
+Example of how to find elements that look like this:
 
 .. code-block:: html
 
