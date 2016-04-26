@@ -886,6 +886,12 @@ method. Knowing this, it's possible to iterate over every open window like so:
         driver.switchTo().window(handle);
     }
 
+.. code-block:: csharp    
+    
+    foreach (string handle in driver.WindowHandles) {
+        driver.SwitchTo().Window(handle);
+    }
+
 .. code-block:: ruby
 
     driver.window_handles.each do |handle|
