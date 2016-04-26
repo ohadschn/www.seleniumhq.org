@@ -800,6 +800,10 @@ way to do this would be to find the "submit" button and click it:
 .. code-block:: java
 
     driver.findElement(By.id("submit")).click();
+    
+.. code-block:: csharp
+
+    driver.FindElement(By.Id("submit")).Click();
 
 .. code-block:: ruby
 
