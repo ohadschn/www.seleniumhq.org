@@ -909,6 +909,10 @@ You can also switch from frame to frame (or into iframes):
 .. code-block:: java
 
     driver.switchTo().frame("frameName");
+    
+.. code-block:: csharp
+    
+    driver.SwitchTo().Frame("frameName");
 
 .. code-block:: ruby
 
