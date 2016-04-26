@@ -692,7 +692,7 @@ People often wish to retrieve the innerText value contained within an element.  
 .. code-block:: csharp
 
     IWebElement element = driver.findElement(By.id("elementID"));
-    element.getText(); 
+    element.Text; 
 
 .. code-block:: ruby
 
