@@ -1391,6 +1391,13 @@ created using Firefox's profile manager (``firefox -ProfileManager``):
     FirefoxProfile profile = allProfiles.getProfile("WebDriver");
     profile.setPreferences("foo.bar", 23);
     WebDriver driver = new FirefoxDriver(profile);
+    
+.. code-block:: csharp
+
+    var profileManager = new FirefoxProfileManager();
+    FirefoxProfile profile = profileManager.GetProfile("WebDriver");
+    profile.SetPreference("foo.bar", 23);
+    IWebDriver driver = new FirefoxDriver(profile);
 
 Alternatively, if the profile isn't already registered with Firefox:
 
