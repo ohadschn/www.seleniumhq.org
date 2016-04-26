@@ -1207,6 +1207,12 @@ Native events are required to be enabled.
     WebElement target = driver.findElement(By.name("target"));
 
     (new Actions(driver)).dragAndDrop(element, target).perform();
+    
+.. code-block:: csharp
+
+        IWebElement element = driver.FindElement(By.Name("source"));
+        IWebElement target = driver.FindElement(By.Name("target"));
+        (new Actions(driver)).DragAndDrop(element, target).Perform();
 
 .. code-block:: ruby
 
