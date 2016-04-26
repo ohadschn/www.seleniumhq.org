@@ -727,7 +727,7 @@ with SELECT tags isn't too bad:
     IList<IWebElement> allOptions = select.FindElements(By.TagName("option"));
     foreach (IWebElement option in allOptions)
     {
-        System.Console.WriteLine("Value is: " + option.GetAttribute("value"));
+        Console.WriteLine("Value is: " + option.GetAttribute("value"));
         option.Click();
     }
 
