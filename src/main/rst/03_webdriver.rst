@@ -187,7 +187,7 @@ to verify that they work as expected. It aims to provide a friendly API that's
 easy to explore and understand, easier to use than the Selenium-RC (1.0) API,
 which will help to make your tests easier to
 read and maintain. It's not tied to any particular test framework, so it can
-be used equally well in a unit testing or from a plain old "main" method.
+be used equally well in a unit testing project or from a plain old "main" method.
 This section introduces WebDriver's API and helps get you started becoming
 familiar with it.  Start by setting up a WebDriver project if you haven't already.
 This was described in the previous section, :ref:`setting-up-webdriver-project`.
