@@ -11,7 +11,7 @@ Waiting is having the automated task execution elapse a certain amount of time b
 You should choose to use Explicit Waits or Implicit Waits.
 
 WARNING: Do not mix implicit and explicit waits. Doing so can cause unpredictable wait times. For example setting an
-implicit wait of 10s and an explicit wait of 15 seconds, could cause a timeout to occur after 20 seconds.
+implicit wait of 10 seconds and an explicit wait of 15 seconds, could cause a timeout to occur after 20 seconds.
 
 Explicit Waits
 ~~~~~~~~~~~~~~
