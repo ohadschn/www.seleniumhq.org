@@ -269,9 +269,9 @@ Locating UI Elements (WebElements)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Locating elements in WebDriver can be done on the WebDriver instance itself or on a WebElement.
-Each of the language bindings exposes a "Find Element" and "Find Elements" method. The first returns
-a WebElement object otherwise it throws an exception. The latter returns a list of WebElements, it can
-return an empty list if no DOM elements match the query.
+Each of the language bindings exposes a "Find Element" and "Find Elements" method. The former returns
+a WebElement object matching the query, and throws an exception if such an element cannot be found. 
+The latter returns a list of WebElements, possibly empty if no DOM elements match the query.
 
 The "Find" methods take a locator or query object called "By". "By" strategies are listed below.
 
