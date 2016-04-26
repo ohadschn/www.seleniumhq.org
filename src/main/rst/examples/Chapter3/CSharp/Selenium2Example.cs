@@ -22,7 +22,6 @@ class GoogleSuggest
         // for further information.
         using (IWebDriver driver = new FirefoxDriver())
         {
-
             //Notice navigation is slightly different than the Java version
             //This is because 'get' is a keyword in C#
             driver.Navigate().GoToUrl("http://www.google.com/");
