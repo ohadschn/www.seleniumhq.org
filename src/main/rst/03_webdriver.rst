@@ -644,7 +644,7 @@ Simple example on a page that has jQuery loaded:
 
     element = $driver->execute_script("return $('.cheese')[0]");
 
-Finding all the input elements to the every label on a page:
+Finding all the input elements for every label on a page:
 
 .. code-block:: java
 
