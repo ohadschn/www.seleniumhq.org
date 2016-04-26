@@ -825,6 +825,10 @@ element isn't in a form, then the ``NoSuchElementException`` will be thrown:
 .. code-block:: java
 
     element.submit();
+    
+.. code-block:: csharp
+
+    element.Submit();
 
 .. code-block:: ruby
 
