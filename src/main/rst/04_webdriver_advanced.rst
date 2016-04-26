@@ -51,6 +51,11 @@ class yourself or create your own utility package for them.
     WebDriverWait wait = new WebDriverWait(driver, 10);
     WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("someid")));
 
+.. code-block:: csharp
+
+   WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+   IWebElement element = wait.Until(ExpectedConditions.ElementToBeClickable(By.Id("someid")));
+
 .. code-block:: python
 
     from selenium.webdriver.support import expected_conditions as EC
