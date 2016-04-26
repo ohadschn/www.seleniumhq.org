@@ -1009,6 +1009,11 @@ The "navigate" interface also exposes the ability to move backwards and forwards
     driver.navigate().forward();
     driver.navigate().back();
 
+.. code-block:: csharp    
+    
+    driver.Navigate().Forward();
+    driver.Navigate().Back();
+
 .. code-block:: ruby
 
     driver.navigate.forward
