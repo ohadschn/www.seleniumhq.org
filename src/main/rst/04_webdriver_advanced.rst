@@ -33,8 +33,7 @@ WebDriverWait in combination with ExpectedCondition is one way this can be accom
    :language: ruby
 
 This waits up to 10 seconds before throwing a TimeoutException or if it finds the element will return it in 0 - 10 seconds.
-WebDriverWait by default calls the ExpectedCondition every 500 milliseconds until it returns successfully. A successful return is
-for ExpectedCondition type is Boolean return true or not null return value for all other ExpectedCondition types.
+WebDriverWait by default calls the ExpectedCondition every 500 milliseconds until it returns successfully. A successful return value for the ExpectedCondition type is a Boolean value of true, or a non-null object.
 
 This example is also functionally equivalent to the first `Implicit Waits`_ example.
 
