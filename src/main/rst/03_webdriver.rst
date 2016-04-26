@@ -1065,6 +1065,29 @@ e.g. http://example.com/some404page).
     driver.manage().deleteCookie(loadedCookie);
     // Or all of them
     driver.manage().deleteAllCookies();
+    
+.. code-block csharp
+
+// Go to the correct domain
+    driver.Url ="http://www.example.com";
+
+    // Now set the cookie. This one's valid for the entire domain
+    var cookie = new Cookie("key", "value");
+    driver.Manage().Cookies.AddCookie(cookie);
+
+    // And now output all the available cookies for the current URL
+    IReadOnlyCollection<Cookie> allCookies = driver.Manage().Cookies.AllCookies;
+    foreach (Cookie loadedCookie in allCookies) {
+        Console.WriteLine("{0} -> {1}", loadedCookie.Name, loadedCookie.Value);
+    }
+
+    // You can delete cookies in 3 ways
+    // By name
+    driver.Manage().Cookies.DeleteCookieNamed("CookieName");
+    // By Cookie
+    driver.Manage().Cookies.DeleteCookie(cookie);
+    // Or all of them
+    driver.Manage().Cookies.DeleteAllCookies();
 
 .. code-block:: python
 
