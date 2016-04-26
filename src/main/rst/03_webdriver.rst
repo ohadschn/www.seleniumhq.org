@@ -551,13 +551,13 @@ Example of to find the cheese below:
     $cheese = $driver->find_element('#food span.dairy.aged', 'css');
 
 
-By XPATH
+By XPath
 ++++++++
 
 At a high level, WebDriver uses a browser's native XPath capabilities wherever
 possible. On those browsers that don't have native XPath support, we have
 provided our own implementation. This can lead to some unexpected behaviour
-unless you are aware of the differences in the various xpath engines.
+unless you are aware of the differences in the various XPath engines.
 
 ===========================  =======================  ==========================  ====================
 Driver                       Tag and Attribute Name   Attribute Values            Native XPath Support
